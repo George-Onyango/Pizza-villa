@@ -12,10 +12,11 @@
 .nav-li {
   float: left;
   text-align: center;
-  padding: 50px;
+  padding: 20px;
   letter-spacing: 3px;
   font-weight: 200px;
   margin: 0;
+  text-decoration: none;
 }
 header::after {
   display: table;
@@ -36,8 +37,8 @@ header::after {
   position: relative;
   text-align: center;
   color: rgb(250, 249, 249);
-  padding: 250px;
   padding-bottom: 600px;
+  padding-top: 150px;
 }
 .btn {
   padding: 50px;
@@ -55,9 +56,9 @@ header::after {
   position: relative;
   z-index: 2;
   width: 100%;
-  padding: 20px;
+  padding: 10px;
   text-align: center;
-  font-size: 22px;
+  font-size: 18px;
   font-family: 'Lobster Two', cursive;
 }
 #reset {
@@ -65,4 +66,11 @@ header::after {
   font-weight: 900;
   font-family: 'Lobster Two', cursive;
 
+}
+@media all and (max-width:500px){
+  .like{
+    flex-direction: column;
+    text-align: center;
+    padding: 18px 0 0;
+  }
 }
