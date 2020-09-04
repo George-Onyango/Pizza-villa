@@ -37,13 +37,14 @@ header::after {
   text-align: center;
   color: rgb(250, 249, 249);
   padding: 250px;
-  padding-bottom: 500px;
+  padding-bottom: 600px;
 }
 .btn {
   padding: 50px;
   color: #f1f1f1;
   border: 2px solid whitesmoke;
   padding: 20px;
+  font-family: 'Lobster Two', cursive;
 }
 
 .like {
@@ -56,6 +57,8 @@ header::after {
   width: 100%;
   padding: 20px;
   text-align: center;
+  font-size: 22px;
+  font-family: 'Lobster Two', cursive;
 }
 #reset {
   background-color: #FFC300;
