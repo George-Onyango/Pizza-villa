@@ -1,12 +1,17 @@
-#show-contact {
-    display: none;
-  }
+.nav-ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  float: right;
+}
+.logo {
+  border-radius: 100%;
+  height: 200px;
+}
+.nav-li {
+  float: left;
+  text-align: center;
+  padding: 50px;
+  margin: 0;
   
-  .contact {
-    cursor: pointer;
-    color: #0088cc;
-  }
-  
-  .contact:hover {
-    text-decoration: underline;
-  }  
+}
