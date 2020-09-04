@@ -13,6 +13,8 @@
   float: left;
   text-align: center;
   padding: 50px;
+  letter-spacing: 3px;
+  font-weight: 200px;
   margin: 0;
 }
 header::after {
@@ -23,19 +25,41 @@ header::after {
 #cheese {
   padding: 10px;
 }
-body {
+/* body {
   background-color: aquamarine;
-}
+} */
 .heading {
   background-image: url(https://cdn.trendhunterstatic.com/thumbs/lucia-pizza.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 600px;
+  height: 700px;
   position: relative;
   text-align: center;
   color: rgb(250, 249, 249);
-  padding: 200px;
+  padding: 250px;
+  padding-bottom: 500px;
 }
 .btn {
+  padding: 50px;
+  color: #f1f1f1;
+  border: 2px solid whitesmoke;
   padding: 20px;
+}
+
+.like {
+  background-color: rgb(0,0,0);
+  background-color: rgb(0,0,0,0.4);
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+#reset {
+  background-color: #FFC300;
+  font-weight: 900;
+  font-family: 'Lobster Two', cursive;
+
 }
