@@ -2,19 +2,40 @@
   margin: 0;
   padding: 0;
   list-style: none;
-  float: right;
+  float: left;
 }
 .logo {
   border-radius: 100%;
-  height: 200px;
+  height: 100px;
+  float: left;
 }
 .nav-li {
   float: left;
   text-align: center;
   padding: 50px;
   margin: 0;
-  
 }
+header::after {
+  display: table;
+  content: "";
+  clear: both;
+} 
 #cheese {
   padding: 10px;
+}
+body {
+  background-color: aquamarine;
+}
+.heading {
+  background-image: url(https://cdn.trendhunterstatic.com/thumbs/lucia-pizza.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  position: relative;
+  text-align: center;
+  color: rgb(250, 249, 249);
+  padding: 200px;
+}
+.btn {
+  padding: 20px;
 }
