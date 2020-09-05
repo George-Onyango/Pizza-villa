@@ -88,6 +88,12 @@ header::after {
   padding: 15px;
   width: 50%;
 }
+.contact-item textarea{
+  border-radius: 10px;
+  height: 150px;
+  width: 50%;
+  padding: 15px;
+}
 @media all and (max-width:500px){
   .like{
     flex-direction: column;
