@@ -128,8 +128,10 @@ header::after {
   padding-right: 150px;
   padding-top: 18px;
   padding-bottom: 18px;
-  display: none;
 }
 .menu ul li{
   letter-spacing: 2px;
+}
+#king{
+  display: none;
 }
