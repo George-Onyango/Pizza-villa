@@ -67,6 +67,11 @@ header::after {
   font-family: 'Lobster Two', cursive;
 
 }
+.contact {
+  background-image: url(https://www.qsrmagazine.com/sites/default/files/styles/story_page/public/phut_0.jpg?itok=h30EAnkk);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 @media all and (max-width:500px){
   .like{
     flex-direction: column;
