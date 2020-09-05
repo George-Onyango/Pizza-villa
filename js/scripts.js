@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $(".btn").click(function(){
-        $(".container").toggle();
+    $("#order").click(function(){
+        $("#king").toggle();
     });
 });
