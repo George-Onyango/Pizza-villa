@@ -67,6 +67,17 @@ header::after {
   font-family: 'Lobster Two', cursive;
 
 }
+#btn{
+  padding: 20px;
+  text-align: left;
+  color: cornflowerblue;
+  background-color: wheat;
+}
+.jake{
+  padding-top: 20px;
+  display: flex;
+  text-align: left;
+}
 .contact {
   background-image: url(https://www.qsrmagazine.com/sites/default/files/styles/story_page/public/phut_0.jpg?itok=h30EAnkk);
   background-repeat: no-repeat;
