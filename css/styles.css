@@ -120,7 +120,8 @@ header::after {
   padding-top: 20px;
 }
 .container{
-  padding-left: 300px;
+  padding-left: 150px;
+  padding-right: 150px;
   padding-top: 18px;
   padding-bottom: 18px;
 }
