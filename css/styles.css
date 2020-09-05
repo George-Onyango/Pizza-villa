@@ -112,3 +112,18 @@ header::after {
     padding: 18px 0 0;
   }
 }
+.menu{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid grey;
+  padding-left:50px;
+  padding-top: 20px;
+}
+.container{
+  padding-left: 300px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+.menu ul li{
+  letter-spacing: 2px;
+}
