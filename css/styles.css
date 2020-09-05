@@ -72,6 +72,11 @@ header::after {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.contact-item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
 @media all and (max-width:500px){
   .like{
     flex-direction: column;
