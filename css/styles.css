@@ -12,7 +12,7 @@
 .nav-li {
   float: left;
   text-align: center;
-  padding: 20px;
+  padding: 18px;
   letter-spacing: 3px;
   font-weight: 200px;
   margin: 0;
@@ -110,6 +110,10 @@ header::after {
     flex-direction: column;
     text-align: center;
     padding: 18px 0 0;
+  }
+  .nav-li{
+    flex-direction: column;
+    text-align: center;
   }
 }
 .menu{
