@@ -10,9 +10,9 @@ $(document).ready(function(){
     $('#size').click(function(){
         var total = 0;
     });
-    $("#size").each(function(){
+    $("#size:checked").each(function(){
         total += parseInt($(this).val());
     });
-
+    $("#total").html("$" + total);
 });
 
