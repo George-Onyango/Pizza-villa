@@ -8,3 +8,8 @@ $(document).ready(function(){
         event.preventDefault();
     });
 });
+
+var pizzaPrice = { name: "small", price:610, 
+    name: "medium" price:880, 
+    name: "large" price:1100
+};
