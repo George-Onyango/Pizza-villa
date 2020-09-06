@@ -9,7 +9,3 @@ $(document).ready(function(){
     });
 });
 
-var pizzaPrice = { name: "small", price:610, 
-    name: "medium" price:880, 
-    name: "large" price:1100
-};
