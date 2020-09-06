@@ -7,5 +7,8 @@ $(document).ready(function(){
         alert(' Dear '  + client + ' we have received the message you have sent. Kindly note that your feedback is highly appreciated ');
         event.preventDefault();
     });
+    $('.size').click(function(){
+        var total = 0;
+    })
 });
 
